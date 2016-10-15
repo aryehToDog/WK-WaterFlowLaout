@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E4DDC91DF72C3447F43451 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 419CAAD353F70F8E1B9BD31E /* libPods.a */; };
+		25F3616E1DB214360001743B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F3616D1DB214360001743B /* main.m */; };
+		25F361711DB214360001743B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F361701DB214360001743B /* AppDelegate.m */; };
+		25F361741DB214360001743B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F361731DB214360001743B /* ViewController.m */; };
+		25F361771DB214360001743B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F361751DB214360001743B /* Main.storyboard */; };
+		25F361791DB214360001743B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F361781DB214360001743B /* Assets.xcassets */; };
+		25F3617C1DB214360001743B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F3617A1DB214360001743B /* LaunchScreen.storyboard */; };
+		25F361871DB214360001743B /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F361861DB214360001743B /* ___Tests.m */; };
+		25F361921DB214360001743B /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F361911DB214360001743B /* ___UITests.m */; };
+		25F361A11DB214FE0001743B /* WKWaterViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F361A01DB214FE0001743B /* WKWaterViewLayout.m */; };
+		25F361A41DB224D00001743B /* WKShops.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F361A31DB224D00001743B /* WKShops.m */; };
+		25F361A81DB225BD0001743B /* WKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F361A61DB225BD0001743B /* WKCollectionViewCell.m */; };
+		25F361A91DB225BD0001743B /* WKCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F361A71DB225BD0001743B /* WKCollectionViewCell.xib */; };
+		25F361AB1DB227980001743B /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25F361AA1DB227980001743B /* 1.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25F361831DB214360001743B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F361611DB214360001743B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F361681DB214360001743B;
+			remoteInfo = "瀑布流";
+		};
+		25F3618E1DB214360001743B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F361611DB214360001743B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F361681DB214360001743B;
+			remoteInfo = "瀑布流";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10EF0556F125211D4997D4B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		149CA184AA662AF4E12694CE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		25F361691DB214360001743B /* 瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F3616D1DB214360001743B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25F3616F1DB214360001743B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25F361701DB214360001743B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25F361721DB214360001743B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25F361731DB214360001743B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25F361761DB214360001743B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25F361781DB214360001743B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F3617B1DB214360001743B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25F3617D1DB214360001743B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F361821DB214360001743B /* 瀑布流Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "瀑布流Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F361861DB214360001743B /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		25F361881DB214360001743B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F3618D1DB214360001743B /* 瀑布流UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "瀑布流UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F361911DB214360001743B /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		25F361931DB214360001743B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F3619F1DB214FE0001743B /* WKWaterViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWaterViewLayout.h; sourceTree = "<group>"; };
+		25F361A01DB214FE0001743B /* WKWaterViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWaterViewLayout.m; sourceTree = "<group>"; };
+		25F361A21DB224D00001743B /* WKShops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKShops.h; sourceTree = "<group>"; };
+		25F361A31DB224D00001743B /* WKShops.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKShops.m; sourceTree = "<group>"; };
+		25F361A51DB225BD0001743B /* WKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCollectionViewCell.h; sourceTree = "<group>"; };
+		25F361A61DB225BD0001743B /* WKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCollectionViewCell.m; sourceTree = "<group>"; };
+		25F361A71DB225BD0001743B /* WKCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKCollectionViewCell.xib; sourceTree = "<group>"; };
+		25F361AA1DB227980001743B /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		419CAAD353F70F8E1B9BD31E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F361661DB214360001743B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E4DDC91DF72C3447F43451 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F3617F1DB214360001743B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F3618A1DB214360001743B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F361601DB214360001743B = {
+			isa = PBXGroup;
+			children = (
+				25F3616B1DB214360001743B /* 瀑布流 */,
+				25F361851DB214360001743B /* 瀑布流Tests */,
+				25F361901DB214360001743B /* 瀑布流UITests */,
+				25F3616A1DB214360001743B /* Products */,
+				FA1585464577B9FC7626A445 /* Pods */,
+				87B8F6745CAFFD958F1BD88B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25F3616A1DB214360001743B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F361691DB214360001743B /* 瀑布流.app */,
+				25F361821DB214360001743B /* 瀑布流Tests.xctest */,
+				25F3618D1DB214360001743B /* 瀑布流UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F3616B1DB214360001743B /* 瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				25F361AA1DB227980001743B /* 1.plist */,
+				25F3616F1DB214360001743B /* AppDelegate.h */,
+				25F361701DB214360001743B /* AppDelegate.m */,
+				25F361721DB214360001743B /* ViewController.h */,
+				25F361731DB214360001743B /* ViewController.m */,
+				25F361A51DB225BD0001743B /* WKCollectionViewCell.h */,
+				25F361A61DB225BD0001743B /* WKCollectionViewCell.m */,
+				25F361A71DB225BD0001743B /* WKCollectionViewCell.xib */,
+				25F361A21DB224D00001743B /* WKShops.h */,
+				25F361A31DB224D00001743B /* WKShops.m */,
+				25F3619F1DB214FE0001743B /* WKWaterViewLayout.h */,
+				25F361A01DB214FE0001743B /* WKWaterViewLayout.m */,
+				25F361751DB214360001743B /* Main.storyboard */,
+				25F361781DB214360001743B /* Assets.xcassets */,
+				25F3617A1DB214360001743B /* LaunchScreen.storyboard */,
+				25F3617D1DB214360001743B /* Info.plist */,
+				25F3616C1DB214360001743B /* Supporting Files */,
+			);
+			path = "瀑布流";
+			sourceTree = "<group>";
+		};
+		25F3616C1DB214360001743B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25F3616D1DB214360001743B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25F361851DB214360001743B /* 瀑布流Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25F361861DB214360001743B /* ___Tests.m */,
+				25F361881DB214360001743B /* Info.plist */,
+			);
+			path = "瀑布流Tests";
+			sourceTree = "<group>";
+		};
+		25F361901DB214360001743B /* 瀑布流UITests */ = {
+			isa = PBXGroup;
+			children = (
+				25F361911DB214360001743B /* ___UITests.m */,
+				25F361931DB214360001743B /* Info.plist */,
+			);
+			path = "瀑布流UITests";
+			sourceTree = "<group>";
+		};
+		87B8F6745CAFFD958F1BD88B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				419CAAD353F70F8E1B9BD31E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA1585464577B9FC7626A445 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				149CA184AA662AF4E12694CE /* Pods.debug.xcconfig */,
+				10EF0556F125211D4997D4B9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F361681DB214360001743B /* 瀑布流 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F361961DB214360001743B /* Build configuration list for PBXNativeTarget "瀑布流" */;
+			buildPhases = (
+				B9677B3513C61D39E9AE0966 /* Check Pods Manifest.lock */,
+				25F361651DB214360001743B /* Sources */,
+				25F361661DB214360001743B /* Frameworks */,
+				25F361671DB214360001743B /* Resources */,
+				FC2AA7B029BFD1BC8A0140C6 /* Embed Pods Frameworks */,
+				3DEA79796C23B3667EB46890 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "瀑布流";
+			productName = "瀑布流";
+			productReference = 25F361691DB214360001743B /* 瀑布流.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25F361811DB214360001743B /* 瀑布流Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F361991DB214360001743B /* Build configuration list for PBXNativeTarget "瀑布流Tests" */;
+			buildPhases = (
+				25F3617E1DB214360001743B /* Sources */,
+				25F3617F1DB214360001743B /* Frameworks */,
+				25F361801DB214360001743B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F361841DB214360001743B /* PBXTargetDependency */,
+			);
+			name = "瀑布流Tests";
+			productName = "瀑布流Tests";
+			productReference = 25F361821DB214360001743B /* 瀑布流Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25F3618C1DB214360001743B /* 瀑布流UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F3619C1DB214360001743B /* Build configuration list for PBXNativeTarget "瀑布流UITests" */;
+			buildPhases = (
+				25F361891DB214360001743B /* Sources */,
+				25F3618A1DB214360001743B /* Frameworks */,
+				25F3618B1DB214360001743B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F3618F1DB214360001743B /* PBXTargetDependency */,
+			);
+			name = "瀑布流UITests";
+			productName = "瀑布流UITests";
+			productReference = 25F3618D1DB214360001743B /* 瀑布流UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F361611DB214360001743B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WK;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "阿拉斯加的🐶";
+				TargetAttributes = {
+					25F361681DB214360001743B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y2G5F25VK;
+						ProvisioningStyle = Automatic;
+					};
+					25F361811DB214360001743B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y2G5F25VK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25F361681DB214360001743B;
+					};
+					25F3618C1DB214360001743B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y2G5F25VK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25F361681DB214360001743B;
+					};
+				};
+			};
+			buildConfigurationList = 25F361641DB214360001743B /* Build configuration list for PBXProject "瀑布流" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F361601DB214360001743B;
+			productRefGroup = 25F3616A1DB214360001743B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F361681DB214360001743B /* 瀑布流 */,
+				25F361811DB214360001743B /* 瀑布流Tests */,
+				25F3618C1DB214360001743B /* 瀑布流UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F361671DB214360001743B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F361AB1DB227980001743B /* 1.plist in Resources */,
+				25F3617C1DB214360001743B /* LaunchScreen.storyboard in Resources */,
+				25F361791DB214360001743B /* Assets.xcassets in Resources */,
+				25F361A91DB225BD0001743B /* WKCollectionViewCell.xib in Resources */,
+				25F361771DB214360001743B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F361801DB214360001743B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F3618B1DB214360001743B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DEA79796C23B3667EB46890 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9677B3513C61D39E9AE0966 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2AA7B029BFD1BC8A0140C6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F361651DB214360001743B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F361A11DB214FE0001743B /* WKWaterViewLayout.m in Sources */,
+				25F361741DB214360001743B /* ViewController.m in Sources */,
+				25F361A81DB225BD0001743B /* WKCollectionViewCell.m in Sources */,
+				25F361A41DB224D00001743B /* WKShops.m in Sources */,
+				25F361711DB214360001743B /* AppDelegate.m in Sources */,
+				25F3616E1DB214360001743B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F3617E1DB214360001743B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F361871DB214360001743B /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F361891DB214360001743B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F361921DB214360001743B /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25F361841DB214360001743B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F361681DB214360001743B /* 瀑布流 */;
+			targetProxy = 25F361831DB214360001743B /* PBXContainerItemProxy */;
+		};
+		25F3618F1DB214360001743B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F361681DB214360001743B /* 瀑布流 */;
+			targetProxy = 25F3618E1DB214360001743B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25F361751DB214360001743B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F361761DB214360001743B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25F3617A1DB214360001743B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F3617B1DB214360001743B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25F361941DB214360001743B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25F361951DB214360001743B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F361971DB214360001743B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149CA184AA662AF4E12694CE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = "瀑布流/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alasijiadegou.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25F361981DB214360001743B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EF0556F125211D4997D4B9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = "瀑布流/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alasijiadegou.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25F3619A1DB214360001743B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = "瀑布流Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alasijiadegou.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/瀑布流.app/瀑布流";
+			};
+			name = Debug;
+		};
+		25F3619B1DB214360001743B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = "瀑布流Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alasijiadegou.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/瀑布流.app/瀑布流";
+			};
+			name = Release;
+		};
+		25F3619D1DB214360001743B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = "瀑布流UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alasijiadegou.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "瀑布流";
+			};
+			name = Debug;
+		};
+		25F3619E1DB214360001743B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = "瀑布流UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alasijiadegou.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "瀑布流";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F361641DB214360001743B /* Build configuration list for PBXProject "瀑布流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F361941DB214360001743B /* Debug */,
+				25F361951DB214360001743B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F361961DB214360001743B /* Build configuration list for PBXNativeTarget "瀑布流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F361971DB214360001743B /* Debug */,
+				25F361981DB214360001743B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F361991DB214360001743B /* Build configuration list for PBXNativeTarget "瀑布流Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F3619A1DB214360001743B /* Debug */,
+				25F3619B1DB214360001743B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F3619C1DB214360001743B /* Build configuration list for PBXNativeTarget "瀑布流UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F3619D1DB214360001743B /* Debug */,
+				25F3619E1DB214360001743B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F361611DB214360001743B /* Project object */;
+}
